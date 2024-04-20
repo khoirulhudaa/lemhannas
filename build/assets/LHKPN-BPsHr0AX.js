@@ -1,0 +1,1 @@
+import{j as s}from"./index-9Wl12BVP.js";import{N as e,a as r}from"./Navbar-COy-tprV.js";const i=()=>s.jsxs("div",{className:" w-screen",children:[s.jsx(e,{}),s.jsx("div",{className:" mt-[65px]",children:s.jsx("h1",{children:"Seleksi Jpt"})}),s.jsx(r,{})]});export{i as default};

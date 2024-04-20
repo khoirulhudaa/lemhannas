@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { FaFacebookF } from 'react-icons/fa';
-import { Gedung, Gedung2, Gub17, LPSE, Logo, SP4N } from '../Assets/Index';
+import { Gedung, Gedung2, Gub17, IG, LPSE, Logo, SP4N, Tiktok, Twitter } from '../Assets/Index';
 import Footer from '../Components/Footer';
 import Navbar from '../Components/Navbar';
 
@@ -144,10 +144,10 @@ const Beranda: React.FC = () => {
                         </div>
                         <div className='overflow-hidden flex justify-between py-5 mb-5 w-full md:w-[58%] flex flex-col items-center bg-slate-300 rounded-[20px] text-white font-bold h-max flex'>
                             <p className='font-bold text-[16px] w-full mb-4 flex items-center px-4'>
-                                <div className='w-[40px] bg-blue-500 justify-center h-[40px] rounded-lg flex items-center text-white p-2 mr-3'>
-                                    <FaFacebookF />
+                                <div className='w-[40px] justify-center h-[40px] rounded-lg flex items-center text-white mr-3'>
+                                    <img src={IG} alt='icon-sosmed'  className='scale-[0.9]'/>
                                 </div>
-                                <p className='text-black'>Facebook</p>
+                                <p className='text-black'>Instagram</p>
                             </p>
                             <div className='h-max md:h-[350px] overflow-hidden w-[90%]'>
                                 <img src={Gedung} alt="foto" className='w-full h-full' />
@@ -155,10 +155,10 @@ const Beranda: React.FC = () => {
                         </div>
                         <div className='overflow-hidden flex justify-between py-5 mb-5 w-full md:w-[58%] flex flex-col items-center bg-slate-300 rounded-[20px] text-white font-bold h-max flex'>
                             <p className='font-bold text-[16px] w-full mb-4 flex items-center px-4'>
-                                <div className='w-[40px] bg-blue-500 justify-center h-[40px] rounded-lg flex items-center text-white p-2 mr-3'>
-                                    <FaFacebookF />
+                                <div className='w-[40px] justify-center h-[40px] rounded-lg flex items-center text-white mr-3'>
+                                    <img src={Twitter} alt='icon-sosmed' className='scale-[1.7]' />
                                 </div>
-                                <p className='text-black'>Facebook</p>
+                                <p className='text-black'>Twitter/X</p>
                             </p>
                             <div className='h-max md:h-[350px] overflow-hidden w-[90%]'>
                                 <img src={Gedung} alt="foto" className='w-full h-full' />
@@ -166,10 +166,10 @@ const Beranda: React.FC = () => {
                         </div>
                         <div className='overflow-hidden flex justify-between py-5 mb-5 w-full md:w-[38%] flex flex-col items-center bg-slate-300 rounded-[20px] text-white font-bold h-max flex'>
                             <p className='font-bold text-[16px] w-full mb-4 flex items-center px-4'>
-                                <div className='w-[40px] bg-blue-500 justify-center h-[40px] rounded-lg flex items-center text-white p-2 mr-3'>
-                                    <FaFacebookF />
+                                <div className='w-[40px] justify-center h-[40px] rounded-lg flex items-center text-white mr-3'>
+                                    <img src={Tiktok} alt='icon-sosmed' className='scale-[1.5]' />
                                 </div>
-                                <p className='text-black'>Facebook</p>
+                                <p className='text-black'>Tiktok</p>
                             </p>
                             <div className='h-max md:h-[350px] overflow-hidden w-[90%]'>
                                 <img src={Gedung} alt="foto" className='w-full h-full' />

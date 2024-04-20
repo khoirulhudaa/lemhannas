@@ -39,6 +39,9 @@ import Nav from './nav.svg'
 import Gedung2 from './gedung2.jpg'
 import FooterBg from './footer.svg'
 import NewsLetterEdisi175Februari2024 from './Edisi 175, Februari 2024.jpg'
+import IG from './ig.png'
+import Tiktok from './tt.png'
+import Twitter from './x.png'
 
 export {
     Logo,
@@ -81,5 +84,8 @@ export {
     Nav,
     Gedung2,
     FooterBg,
-    NewsLetterEdisi175Februari2024
+    NewsLetterEdisi175Februari2024,
+    IG,
+    Tiktok,
+    Twitter
 }
